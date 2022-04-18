@@ -44,7 +44,8 @@
 }
 
 .header__subtitle {
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -175,7 +176,8 @@
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   margin: 100px auto 0;
   line-height: 1.15;
   font-size: 120px;
@@ -219,6 +221,7 @@
   overflow: hidden;
   color: white;
   position: relative;
+  z-index: 10;
 }
 
 .section-title_theme_dark {
@@ -232,7 +235,6 @@
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
-  z-index: 30;
 }
 
 .kaufman__triangle {
@@ -243,6 +245,7 @@
   position: absolute;
   top: 0;
   right: -210px;
+  z-index: -10;
 }
 
 .footer {
