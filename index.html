@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<div class="page"> <!-- этого не было в замечаниях, но на вебинаре 14го числа рассказали, что лучше присваивать класс не тегу body, а обернуть всё в дополнительный div-->
+<div class="page">
 
   <header class="header">
 
@@ -101,7 +101,7 @@
     <section class="kaufman">
 
       <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-      <p class="section-subtitle">от Джоша Кауфмана</p> <!-- есть требование добавить этому элементу модификатор theme_dark но зачем, если у нас на нём не будет никаких стилей? элемент корректно отображается без этого модификатора -->
+      <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
 
       <ul class="table table_theme_dark">
 
@@ -158,30 +158,30 @@
 
     <div class="footer__columns">
 
-      <div class="footer__columns footer__column_content_copyright">
-        <div class="logo logo_place_footer"></div>
+      <div class="footer__column footer__column_content_copyright">
+        <a href="https://practicum.yandex.ru/" class="logo logo_place_footer"></a>
         <p class="footer__author">&copy; Константин Нивников</p>
       </div>
 
-      <nav class="footer__columns footer__column_content_info">
+      <nav class="footer__column footer__column_content_info">
         <h3 class="footer__column-heading">О Практикуме</h3>
         <ul class="footer__column-links">
-          <li><a href="https://practicum.yandex.ru/" class="footer__column__link">Главная</a></li>
-          <li><a href="#" class="footer__column__link">Концепция</a></li>
-          <li><a href="#" class="footer__column__link">Наставники</a></li>
+          <li><a href="https://practicum.yandex.ru/" class="footer__column-link">Главная</a></li>
+          <li><a href="#" class="footer__column-link">Концепция</a></li>
+          <li><a href="#" class="footer__column-link">Наставники</a></li>
         </ul>
       </nav>
 
-      <div class="footer__columns footer__column_content_social">
+      <div class="footer__column footer__column_content_social">
         <h3 class="footer__column-heading">Соцсети</h3>
         <ul class="footer__column-links">
-          <li><a href="#" class="footer__column__link">
+          <li><a href="#" class="footer__column-link">
             <img src="./images/facebook_color_white.svg" class="footer__social-icon" alt="Фейсбук">Facebook
           </a></li>
-          <li><a href="#" class="footer__column__link">
+          <li><a href="#" class="footer__column-link">
             <img src="./images/vk_color_white.svg" class="footer__social-icon" alt="ВКонтакте">ВКонтакте
           </a></li>
-          <li><a href="#" class="footer__column__link">
+          <li><a href="#" class="footer__column-link">
             <img src="./images/instagram_color_white.svg" class="footer__social-icon" alt="Инстаграм">Instagram
           </a></li>
         </ul>
